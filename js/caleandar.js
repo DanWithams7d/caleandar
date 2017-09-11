@@ -293,7 +293,7 @@ function createCalendar(calendar, element, adjuster){
   AddDays();
 }
 
-function caleandar(el, data, settings){
-  var obj = new Calendar(data, settings);
+function caleandar(el, data, settings, date){
+  var obj = new Calendar(data, settings, date);
   createCalendar(obj, el);
 }
